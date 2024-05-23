@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-nPqmdX9AZvjVHYftR/5fblpvFLbhU6bB/KjBw0k2fcspqA1Mbc3Kltw4YEFYH+NI" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylee.css">
+</head>
+<body style="background-color:white;">
+
+  <div class="navbar">
+    <img src="img/loogo3.png" alt="Logo">
+    <a href="#home">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">living room set <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="livingroom.html">sofa-loveseat</a>
+        <a href="livingroom.html">sectional</a>
+        <a href="livingroom.html">occasional table</a>
+        <a href="livingroom.html">sofa recliner</a>
+      </div>
+    </div>
+    <a href="dining.html">dining</a>
+    <a href="bedrooms.html">bedroom</a> 
+    <div class="dropdown">
+      <button class="dropbtn">youth 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="bunkbeds.html">bunkbeds</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">accessories
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="accessories.html">vanity's</a>
+        <a href="accessories.html">carpets</a>
+        <a href="accessories.html">lamps</a>
+        <a href="accessories.html">mirrors</a>
+        <a href="accessories.html">bar</a>
+      </div>
+    </div> 
+    <a href="mattresses.html">mattress</a>
+    <div class="user-dropdown">
+      <img src="img/user.jpg" alt="User Icon" width="50" height="50">
+      <div class="dropdown-menu">
+        <a href="#">View Profile</a>
+        <a href="logout.php">Logout</a>
+      </div>
+    </div>
+  </div>
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/full4.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/full2.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/full3.jpg" style="width:100%">
+  </div>
+  
+  </div>
+  
+<script src="slideshow.js"></script>
+
+<div class="centered-text">
+  <h1>PAYEMENT METHOD</h1>
+  <p>You can use the following ways for payement</p>
+</div>
+
+<a href="index.html">
+  <img src="img/mtn.png">
+  <a href="index.html">
+    <img src="img/airtel.png">
+    <a href="index.html">
+      <img src="img/bk.png">
+</a>
+<div class="follow-us">
+  <h2>FOLLOW US</h2>
+  <p>STAY CONNECTED WITH LA IMPERIAL SOCIAL CHANNELS.</p>
+    <h2>WANT TO CHECK US OUT?</h2>
+    <p>
+      SHOP ONLINE
+Items available online.
+We deliver in UNIVERSITY OF RWANDA and surrounding areas like:
+TUMBA, CYARWA, MUCYARABU
+
+    </p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.643031160963!2d29.73663207351081!3d-2.6214539385400437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c30b808ef1f6dd%3A0x8bc623be800a2b7f!2sTumba%2C%20Butare!5e0!3m2!1sen!2srw!4v1712913016038!5m2!1sen!2srw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+<footer class="footerMain">
+  <div style="width: 80%; padding-top: 15px;">
+    <p>&copy; shema furniture 2024</p>
+    <p class="legal"><a href="privacy.html">PRIVACY POLICY</a></p>
+    <ul class="social-icons">
+      <div id="social-icons">
+        <div>
+          <em class="fa fa-facebook"></em>
+          <p>Facebook</p>
+        </div>
+        <div>
+          <em class="fa fa-twitter"></em>
+          <p>Twitter</p>
+        </div>
+        <div>
+          <em class="fa fa-instagram"></em>
+          <p>Instagram</p>
+        </div>
+        <div>
+          <em class="fa fa-youtube"></em>
+          <p>YouTube</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+<div class="scrolltop">
+    <div class="scroll icon"><i class="fa fa-4x fa-angle-up"></i></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+$('.scrollDown').click(function() {
+  $('body').animate({
+      scrollTop: eval($('#' + $(this).attr('target')).offset().top - 70)
+  }, 1000);
+});
+</script>
+<script>
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 50 ) {
+      $('.scrolltop:hidden').stop(true, true).fadeIn();
+  } else {
+      $('.scrolltop').stop(true, true).fadeOut();
+  }
+});
+$(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".thetop").offset().top},"1000");return false})})
+</script>
+</body>
+</html>

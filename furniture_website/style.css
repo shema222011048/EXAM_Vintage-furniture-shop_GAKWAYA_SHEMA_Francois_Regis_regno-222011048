@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-image: url('img/nice.jpg'); 
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.facebook-registration-form {
+  max-width: 300px; 
+  height: 600px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: blue;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #1d2129;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1877f2;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #166fe5;
+}
+
+.terms {
+  font-size: 14px;
+  color: #8d949e;
+  margin-top: 10px;
+}
+
+.terms a {
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+.login-link {
+  font-size: 14px;
+  color: #8d949e;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-link a {
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+.facebook-login-form {
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: blue;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #1d2129;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: lightgreen;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.close {
+  color: blue;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+.hero {
+  background-color: #f8f9fa;
+  background-image: url(img/divant.jpg);
+  padding: 100px 20px; 
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: darkblue;
+}
+
+.hero p {
+  font-size: 18px; 
+  color:darkblue; 
+  margin-bottom: 0; 
+}
+
+.mission-vision {
+  background-color: lightblue;
+  padding: 50px 20px;
+  text-align: center; 
+}
+
+.mission-vision h2 {
+  font-size: 24px;
+  margin-bottom: 20px; 
+  color: darkblue; 
+}
+
+.mission-vision p {
+  font-size: 18px; 
+  color: blue; 
+  margin-bottom: 30px;
+}
